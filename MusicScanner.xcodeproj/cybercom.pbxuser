@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* MusicScannerAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 508}}";
+			sepNavSelRange = "{477, 17}";
+			sepNavVisRange = "{0, 503}";
+		};
+	};
+	1D3623250D0F684500981E51 /* MusicScannerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 508}}";
+			sepNavSelRange = "{281, 0}";
+			sepNavVisRange = "{0, 753}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* MusicScanner */ = {
+		activeExec = 0;
+		executables = (
+			F1A442CB10D8CEA200E36D7D /* MusicScanner */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = F1A442CB10D8CEA200E36D7D /* MusicScanner */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MusicScanner */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* MusicScanner */,
+		);
+		codeSenseManager = F1A442D310D8CEC700E36D7D /* Code sense */;
+		executables = (
+			F1A442CB10D8CEA200E36D7D /* MusicScanner */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					597,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 282707324;
+			PBXWorkspaceStateSaveDate = 282707324;
+		};
+		perUserProjectItems = {
+			F1A4433810D8ED5F00E36D7D = F1A4433810D8ED5F00E36D7D /* PBXTextBookmark */;
+			F1A4434010D8EDDE00E36D7D = F1A4434010D8EDDE00E36D7D /* PBXTextBookmark */;
+			F1A4434110D8EDDE00E36D7D = F1A4434110D8EDDE00E36D7D /* PBXTextBookmark */;
+			F1A4434210D8EDDE00E36D7D = F1A4434210D8EDDE00E36D7D /* PBXTextBookmark */;
+			F1A4434310D8EDDE00E36D7D = F1A4434310D8EDDE00E36D7D /* PBXTextBookmark */;
+			F1A4434410D8EDDE00E36D7D = F1A4434410D8EDDE00E36D7D /* PBXTextBookmark */;
+			F1A4434610D8EDE200E36D7D = F1A4434610D8EDE200E36D7D /* PBXTextBookmark */;
+			F1AB4FE510D9CCA30010693A /* PBXTextBookmark */ = F1AB4FE510D9CCA30010693A /* PBXTextBookmark */;
+			F1AB4FE610D9CCA30010693A /* PBXTextBookmark */ = F1AB4FE610D9CCA30010693A /* PBXTextBookmark */;
+			F1AB4FE710D9CCA30010693A /* PBXTextBookmark */ = F1AB4FE710D9CCA30010693A /* PBXTextBookmark */;
+			F1AB4FE810D9CCA30010693A /* PBXTextBookmark */ = F1AB4FE810D9CCA30010693A /* PBXTextBookmark */;
+			F1AB4FE910D9CCA30010693A /* PBXTextBookmark */ = F1AB4FE910D9CCA30010693A /* PBXTextBookmark */;
+			F1AB4FEA10D9CCA30010693A /* PBXTextBookmark */ = F1AB4FEA10D9CCA30010693A /* PBXTextBookmark */;
+			F1AB4FF710D9CD510010693A /* PBXTextBookmark */ = F1AB4FF710D9CD510010693A /* PBXTextBookmark */;
+			F1AB4FF810D9CD510010693A /* PBXTextBookmark */ = F1AB4FF810D9CD510010693A /* PBXTextBookmark */;
+			F1AB4FF910D9CD510010693A /* PBXTextBookmark */ = F1AB4FF910D9CD510010693A /* PBXTextBookmark */;
+			F1AB4FFC10D9CDDD0010693A /* PBXTextBookmark */ = F1AB4FFC10D9CDDD0010693A /* PBXTextBookmark */;
+			F1AB4FFE10D9CEB30010693A /* PBXTextBookmark */ = F1AB4FFE10D9CEB30010693A /* PBXTextBookmark */;
+			F1AB4FFF10D9CEB30010693A /* PBXTextBookmark */ = F1AB4FFF10D9CEB30010693A /* PBXTextBookmark */;
+			F1AB500010D9CEB30010693A /* PBXTextBookmark */ = F1AB500010D9CEB30010693A /* PBXTextBookmark */;
+			F1AB500110D9CEB30010693A /* PBXTextBookmark */ = F1AB500110D9CEB30010693A /* PBXTextBookmark */;
+			F1AB500210D9CEB30010693A /* PBXTextBookmark */ = F1AB500210D9CEB30010693A /* PBXTextBookmark */;
+			F1AB500310D9CED80010693A /* PBXTextBookmark */ = F1AB500310D9CED80010693A /* PBXTextBookmark */;
+			F1AB500410D9CFA80010693A /* PBXTextBookmark */ = F1AB500410D9CFA80010693A /* PBXTextBookmark */;
+			F1AB500B10D9D1160010693A /* PBXTextBookmark */ = F1AB500B10D9D1160010693A /* PBXTextBookmark */;
+			F1AB500C10D9D16C0010693A /* PBXTextBookmark */ = F1AB500C10D9D16C0010693A /* PBXTextBookmark */;
+			F1AB500F10D9D21C0010693A /* PBXTextBookmark */ = F1AB500F10D9D21C0010693A /* PBXTextBookmark */;
+			F1AB501410D9D30D0010693A /* PBXTextBookmark */ = F1AB501410D9D30D0010693A /* PBXTextBookmark */;
+			F1AB501710D9D34B0010693A /* PBXTextBookmark */ = F1AB501710D9D34B0010693A /* PBXTextBookmark */;
+			F1AB501810D9D3BA0010693A /* PBXTextBookmark */ = F1AB501810D9D3BA0010693A /* PBXTextBookmark */;
+			F1AB501910D9D3BA0010693A /* PBXTextBookmark */ = F1AB501910D9D3BA0010693A /* PBXTextBookmark */;
+			F1AB501A10D9D3BA0010693A /* PBXTextBookmark */ = F1AB501A10D9D3BA0010693A /* PBXTextBookmark */;
+			F1AB501B10D9D3BA0010693A /* PBXTextBookmark */ = F1AB501B10D9D3BA0010693A /* PBXTextBookmark */;
+			F1AB501C10D9D3BA0010693A /* PBXTextBookmark */ = F1AB501C10D9D3BA0010693A /* PBXTextBookmark */;
+			F1AB510010DA02AB0010693A /* PBXTextBookmark */ = F1AB510010DA02AB0010693A /* PBXTextBookmark */;
+			F1AB510110DA02AB0010693A /* PBXTextBookmark */ = F1AB510110DA02AB0010693A /* PBXTextBookmark */;
+			F1AB510210DA02AB0010693A /* PBXTextBookmark */ = F1AB510210DA02AB0010693A /* PBXTextBookmark */;
+			F1AB510310DA02AB0010693A /* PBXTextBookmark */ = F1AB510310DA02AB0010693A /* PBXTextBookmark */;
+			F1AB510410DA02AB0010693A /* PBXTextBookmark */ = F1AB510410DA02AB0010693A /* PBXTextBookmark */;
+			F1AB510510DA02AB0010693A /* PBXTextBookmark */ = F1AB510510DA02AB0010693A /* PBXTextBookmark */;
+		};
+		sourceControlManager = F1A442D210D8CEC700E36D7D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	F1A442CB10D8CEA200E36D7D /* MusicScanner */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MusicScanner;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	F1A442D210D8CEC700E36D7D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F1A442D310D8CEC700E36D7D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F1A442D410D8CF5400E36D7D /* MusicScanner.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 508}}";
+			sepNavSelRange = "{324, 0}";
+			sepNavVisRange = "{0, 339}";
+		};
+	};
+	F1A442D510D8CF5400E36D7D /* MusicScanner.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 923}}";
+			sepNavSelRange = "{2364, 0}";
+			sepNavVisRange = "{0, 1626}";
+		};
+	};
+	F1A442EC10D8E82400E36D7D /* MusicScannerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 485}}";
+			sepNavSelRange = "{325, 0}";
+			sepNavVisRange = "{0, 331}";
+		};
+	};
+	F1A442ED10D8E82400E36D7D /* MusicScannerViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1391}}";
+			sepNavSelRange = "{2046, 0}";
+			sepNavVisRange = "{1021, 1267}";
+		};
+	};
+	F1A4433810D8ED5F00E36D7D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D410D8CF5400E36D7D /* MusicScanner.h */;
+		name = "MusicScanner.h: 17";
+		rLen = 0;
+		rLoc = 324;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 0;
+	};
+	F1A4434010D8EDDE00E36D7D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D510D8CF5400E36D7D /* MusicScanner.m */;
+		name = "MusicScanner.m: 38";
+		rLen = 0;
+		rLoc = 2033;
+		rType = 0;
+		vrLen = 1546;
+		vrLoc = 169;
+	};
+	F1A4434110D8EDDE00E36D7D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442ED10D8E82400E36D7D /* MusicScannerViewController.m */;
+		name = "MusicScannerViewController.m: 55";
+		rLen = 0;
+		rLoc = 1604;
+		rType = 0;
+		vrLen = 823;
+		vrLoc = 1963;
+	};
+	F1A4434210D8EDDE00E36D7D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442EC10D8E82400E36D7D /* MusicScannerViewController.h */;
+		name = "MusicScannerViewController.h: 17";
+		rLen = 0;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 0;
+	};
+	F1A4434310D8EDDE00E36D7D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MusicScannerAppDelegate.h */;
+		name = "MusicScannerAppDelegate.h: 18";
+		rLen = 17;
+		rLoc = 477;
+		rType = 0;
+		vrLen = 503;
+		vrLoc = 0;
+	};
+	F1A4434410D8EDDE00E36D7D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MusicScannerAppDelegate.m */;
+		name = "MusicScannerAppDelegate.m: 31";
+		rLen = 0;
+		rLoc = 743;
+		rType = 0;
+		vrLen = 753;
+		vrLoc = 0;
+	};
+	F1A4434610D8EDE200E36D7D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MusicScannerAppDelegate.m */;
+		name = "MusicScannerAppDelegate.m: 25";
+		rLen = 0;
+		rLoc = 650;
+		rType = 0;
+		vrLen = 753;
+		vrLoc = 0;
+	};
+	F1AB4FE510D9CCA30010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MusicScannerAppDelegate.m */;
+		name = "MusicScannerAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 281;
+		rType = 0;
+		vrLen = 753;
+		vrLoc = 0;
+	};
+	F1AB4FE610D9CCA30010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D410D8CF5400E36D7D /* MusicScanner.h */;
+		name = "MusicScanner.h: 17";
+		rLen = 0;
+		rLoc = 324;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 0;
+	};
+	F1AB4FE710D9CCA30010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442EC10D8E82400E36D7D /* MusicScannerViewController.h */;
+		name = "MusicScannerViewController.h: 17";
+		rLen = 0;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 0;
+	};
+	F1AB4FE810D9CCA30010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442ED10D8E82400E36D7D /* MusicScannerViewController.m */;
+		name = "MusicScannerViewController.m: 17";
+		rLen = 0;
+		rLoc = 322;
+		rType = 0;
+		vrLen = 1367;
+		vrLoc = 1236;
+	};
+	F1AB4FE910D9CCA30010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D510D8CF5400E36D7D /* MusicScanner.m */;
+		name = "MusicScanner.m: 16";
+		rLen = 0;
+		rLoc = 297;
+		rType = 0;
+		vrLen = 1578;
+		vrLoc = 142;
+	};
+	F1AB4FEA10D9CCA30010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D510D8CF5400E36D7D /* MusicScanner.m */;
+		name = "MusicScanner.m: 16";
+		rLen = 0;
+		rLoc = 297;
+		rType = 0;
+		vrLen = 1578;
+		vrLoc = 142;
+	};
+	F1AB4FF710D9CD510010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D510D8CF5400E36D7D /* MusicScanner.m */;
+		name = "MusicScanner.m: 24";
+		rLen = 0;
+		rLoc = 944;
+		rType = 0;
+		vrLen = 1576;
+		vrLoc = 142;
+	};
+	F1AB4FF810D9CD510010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442EC10D8E82400E36D7D /* MusicScannerViewController.h */;
+		name = "MusicScannerViewController.h: 17";
+		rLen = 0;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 0;
+	};
+	F1AB4FF910D9CD510010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442ED10D8E82400E36D7D /* MusicScannerViewController.m */;
+		name = "MusicScannerViewController.m: 70";
+		rLen = 0;
+		rLoc = 2046;
+		rType = 0;
+		vrLen = 1241;
+		vrLoc = 1236;
+	};
+	F1AB4FFC10D9CDDD0010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442ED10D8E82400E36D7D /* MusicScannerViewController.m */;
+		name = "MusicScannerViewController.m: 72";
+		rLen = 0;
+		rLoc = 2046;
+		rType = 0;
+		vrLen = 1313;
+		vrLoc = 1236;
+	};
+	F1AB4FFE10D9CEB30010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MusicScannerAppDelegate.m */;
+		name = "MusicScannerAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 281;
+		rType = 0;
+		vrLen = 753;
+		vrLoc = 0;
+	};
+	F1AB4FFF10D9CEB30010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442EC10D8E82400E36D7D /* MusicScannerViewController.h */;
+		name = "MusicScannerViewController.h: 17";
+		rLen = 0;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 0;
+	};
+	F1AB500010D9CEB30010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442ED10D8E82400E36D7D /* MusicScannerViewController.m */;
+		name = "MusicScannerViewController.m: 72";
+		rLen = 0;
+		rLoc = 2046;
+		rType = 0;
+		vrLen = 1608;
+		vrLoc = 784;
+	};
+	F1AB500110D9CEB30010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D410D8CF5400E36D7D /* MusicScanner.h */;
+		name = "MusicScanner.h: 17";
+		rLen = 0;
+		rLoc = 324;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 0;
+	};
+	F1AB500210D9CEB30010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D510D8CF5400E36D7D /* MusicScanner.m */;
+		name = "MusicScanner.m: 25";
+		rLen = 0;
+		rLoc = 944;
+		rType = 0;
+		vrLen = 1655;
+		vrLoc = 199;
+	};
+	F1AB500310D9CED80010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D510D8CF5400E36D7D /* MusicScanner.m */;
+		name = "MusicScanner.m: 26";
+		rLen = 0;
+		rLoc = 1483;
+		rType = 0;
+		vrLen = 1655;
+		vrLoc = 199;
+	};
+	F1AB500410D9CFA80010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D510D8CF5400E36D7D /* MusicScanner.m */;
+		name = "MusicScanner.m: 27";
+		rLen = 0;
+		rLoc = 1122;
+		rType = 0;
+		vrLen = 1519;
+		vrLoc = 79;
+	};
+	F1AB500B10D9D1160010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D510D8CF5400E36D7D /* MusicScanner.m */;
+		name = "MusicScanner.m: 27";
+		rLen = 0;
+		rLoc = 1059;
+		rType = 0;
+		vrLen = 1543;
+		vrLoc = 79;
+	};
+	F1AB500C10D9D16C0010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D510D8CF5400E36D7D /* MusicScanner.m */;
+		name = "MusicScanner.m: 30";
+		rLen = 0;
+		rLoc = 1401;
+		rType = 0;
+		vrLen = 1748;
+		vrLoc = 253;
+	};
+	F1AB500F10D9D21C0010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D510D8CF5400E36D7D /* MusicScanner.m */;
+		name = "MusicScanner.m: 35";
+		rLen = 0;
+		rLoc = 1483;
+		rType = 0;
+		vrLen = 1855;
+		vrLoc = 253;
+	};
+	F1AB501410D9D30D0010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D510D8CF5400E36D7D /* MusicScanner.m */;
+		name = "MusicScanner.m: 36";
+		rLen = 0;
+		rLoc = 1476;
+		rType = 0;
+		vrLen = 1779;
+		vrLoc = 253;
+	};
+	F1AB501710D9D34B0010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D510D8CF5400E36D7D /* MusicScanner.m */;
+		name = "MusicScanner.m: 59";
+		rLen = 0;
+		rLoc = 2360;
+		rType = 0;
+		vrLen = 1134;
+		vrLoc = 1306;
+	};
+	F1AB501810D9D3BA0010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D410D8CF5400E36D7D /* MusicScanner.h */;
+		name = "MusicScanner.h: 17";
+		rLen = 0;
+		rLoc = 324;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 0;
+	};
+	F1AB501910D9D3BA0010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D510D8CF5400E36D7D /* MusicScanner.m */;
+		name = "MusicScanner.m: 60";
+		rLen = 0;
+		rLoc = 2364;
+		rType = 0;
+		vrLen = 1712;
+		vrLoc = 79;
+	};
+	F1AB501A10D9D3BA0010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442EC10D8E82400E36D7D /* MusicScannerViewController.h */;
+		name = "MusicScannerViewController.h: 17";
+		rLen = 0;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 0;
+	};
+	F1AB501B10D9D3BA0010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442ED10D8E82400E36D7D /* MusicScannerViewController.m */;
+		name = "MusicScannerViewController.m: 72";
+		rLen = 0;
+		rLoc = 2046;
+		rType = 0;
+		vrLen = 826;
+		vrLoc = 2401;
+	};
+	F1AB501C10D9D3BA0010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442ED10D8E82400E36D7D /* MusicScannerViewController.m */;
+		name = "MusicScannerViewController.m: 65";
+		rLen = 0;
+		rLoc = 2046;
+		rType = 0;
+		vrLen = 1317;
+		vrLoc = 1181;
+	};
+	F1AB510010DA02AB0010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442ED10D8E82400E36D7D /* MusicScannerViewController.m */;
+		name = "MusicScannerViewController.m: 65";
+		rLen = 0;
+		rLoc = 2046;
+		rType = 0;
+		vrLen = 1267;
+		vrLoc = 1021;
+	};
+	F1AB510110DA02AB0010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D510D8CF5400E36D7D /* MusicScanner.m */;
+		name = "MusicScanner.m: 60";
+		rLen = 0;
+		rLoc = 2364;
+		rType = 0;
+		vrLen = 1626;
+		vrLoc = 0;
+	};
+	F1AB510210DA02AB0010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442D410D8CF5400E36D7D /* MusicScanner.h */;
+		name = "MusicScanner.h: 17";
+		rLen = 0;
+		rLoc = 324;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 0;
+	};
+	F1AB510310DA02AB0010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MusicScannerAppDelegate.h */;
+		name = "MusicScannerAppDelegate.h: 18";
+		rLen = 17;
+		rLoc = 477;
+		rType = 0;
+		vrLen = 503;
+		vrLoc = 0;
+	};
+	F1AB510410DA02AB0010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MusicScannerAppDelegate.m */;
+		name = "MusicScannerAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 281;
+		rType = 0;
+		vrLen = 753;
+		vrLoc = 0;
+	};
+	F1AB510510DA02AB0010693A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F1A442EC10D8E82400E36D7D /* MusicScannerViewController.h */;
+		name = "MusicScannerViewController.h: 17";
+		rLen = 0;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 0;
+	};
+}
