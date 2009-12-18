@@ -1,0 +1,422 @@
+TMusicScanner
+v7
+r0
+t282793329.459499
+cCheck dependencies
+cCpResource build/Release-iphoneos/MusicScanner.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/Info.plist MusicScanner-Info.plist
+cCompileXIB /Users/cybercom/Documents/MusicScanner/MainWindow.xib
+cCpResource build/Release-iphoneos/MusicScanner.app/Hot.mp3 Hot.mp3
+cCpResource build/Release-iphoneos/MusicScanner.app/audiofile.mp3 audiofile.mp3
+cCpResource build/Release-iphoneos/MusicScanner.app/daoxiang.mp3 daoxiang.mp3
+cProcessPCH /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicScanner_Prefix-hildzudvaqjawreiguczphaayksf/MusicScanner_Prefix.pch.gch MusicScanner_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/main.o /Users/cybercom/Documents/MusicScanner/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicScannerAppDelegate.o /Users/cybercom/Documents/MusicScanner/Classes/MusicScannerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicScanner.o /Users/cybercom/Documents/MusicScanner/Classes/MusicScanner.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicScannerViewController.o /Users/cybercom/Documents/MusicScanner/Classes/MusicScannerViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicMetaDataParser.o /Users/cybercom/Documents/MusicScanner/Classes/MusicMetaDataParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/MusicScanner normal armv6
+cGenerateDSYMFile /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app.dSYM /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/MusicScanner
+cTouch /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app
+cCodeSign /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
+c000000004ABFDAFE0000000000000110
+t1254087422
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+c000000004ABDB88400000000000001E5
+t1253947524
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004ABDBC2D00000000002E0B30
+t1253948461
+s3017520
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioFile.h
+c000000004ABDBC02000000000000EF58
+t1253948418
+s61272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004ABDBC030000000000000A22
+t1253948419
+s2594
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDBA1300000000005F4900
+t1253947923
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDBDCF0000000000501370
+t1253948879
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDBDA40000000000001355
+t1253948836
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDD0D10000000000000788
+t1253953745
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDD2250000000001B3F450
+t1253954085
+s28570704
+
+N/Users/cybercom/Documents/MusicScanner/Classes/MusicMetaData.h
+c000000004B29D2FE0000000000000131
+t1261032190
+s305
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioFile.h>
+
+N/Users/cybercom/Documents/MusicScanner/Classes/MusicMetaData.m
+c000000004B29D33500000000000005BA
+t1261032245
+s1466
+i"MusicMetaData.h"
+
+N/Users/cybercom/Documents/MusicScanner/Classes/MusicMetaDataParser.h
+c000000004B29DAF20000000000000114
+t1261034226
+s276
+i<Foundation/Foundation.h>
+
+N/Users/cybercom/Documents/MusicScanner/Classes/MusicMetaDataParser.m
+c000000004B29DCDA0000000000000F9F
+t1261034714
+s3999
+i"MusicMetaDataParser.h"
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/cybercom/Documents/MusicScanner/Classes/MusicScanner.h
+c000000004B28B1100000000000000153
+t1260957968
+s339
+i<Foundation/Foundation.h>
+
+N/Users/cybercom/Documents/MusicScanner/Classes/MusicScanner.m
+c000000004B299BE60000000000000988
+t1261018086
+s2440
+i"MusicScanner.h"
+
+N/Users/cybercom/Documents/MusicScanner/Classes/MusicScannerAppDelegate.h
+c000000004B28B17500000000000001F7
+t1260958069
+s503
+i<UIKit/UIKit.h>
+i"MusicScannerViewController.h"
+
+N/Users/cybercom/Documents/MusicScanner/Classes/MusicScannerAppDelegate.m
+c000000004B28B65900000000000002F1
+t1260959321
+s753
+i"MusicScannerAppDelegate.h"
+
+N/Users/cybercom/Documents/MusicScanner/Classes/MusicScannerViewController.h
+c000000004B29D50100000000000001ED
+t1261032705
+s493
+i<UIKit/UIKit.h>
+
+N/Users/cybercom/Documents/MusicScanner/Classes/MusicScannerViewController.m
+c000000004B29DD7D0000000000000EE3
+t1261034877
+s3811
+i"MusicScannerViewController.h"
+i"MusicScanner.h"
+i"MusicMetaDataParser.h"
+
+N/Users/cybercom/Documents/MusicScanner/Hot.mp3
+c000000004B2717D500000000004A715B
+t1260853205
+s4878683
+
+N/Users/cybercom/Documents/MusicScanner/MainWindow.xib
+c000000004B2897220000000000001F6C
+t1260951330
+s8044
+
+N/Users/cybercom/Documents/MusicScanner/MusicScanner_Prefix.pch
+c000000004B28972200000000000000C1
+t1260951330
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cybercom/Documents/MusicScanner/audiofile.mp3
+c000000004B14EA5A000000000000329B
+t1259661914
+s12955
+
+N/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicMetaData.o
+t2
+s0
+
+N/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicMetaDataParser.o
+t1261100528
+s15540
+
+N/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicScanner.LinkFileList
+c000000004B2ADDEE00000000000002C0
+t1261100526
+s704
+
+N/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicScanner.o
+t1261100528
+s13856
+
+N/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicScannerAppDelegate.o
+t1261100528
+s41488
+
+N/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicScannerViewController.o
+t1261100528
+s43312
+
+N/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/main.o
+t1261100528
+s6640
+
+N/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app
+t1261100529
+s408
+
+N/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app.dSYM
+t1261100529
+s102
+
+N/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/Hot.mp3
+t1261100527
+s4878683
+
+N/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/Info.plist
+t1261100526
+s650
+
+N/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/MainWindow.nib
+t1261100527
+s1350
+
+N/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/MusicScanner
+t1261100529
+s25276
+
+N/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/PkgInfo
+t1261100527
+s8
+
+N/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/ResourceRules.plist
+t1261100527
+s485
+
+N/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/audiofile.mp3
+t1261100527
+s12955
+
+N/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/daoxiang.mp3
+t1261100527
+s3574570
+
+N/Users/cybercom/Documents/MusicScanner/daoxiang.mp3
+c000000004B21FEC50000000000368B2A
+t1260519109
+s3574570
+
+N/Users/cybercom/Documents/MusicScanner/main.m
+c000000004B289722000000000000016B
+t1260951330
+s363
+i<UIKit/UIKit.h>
+
+N/var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicScanner_Prefix-hildzudvaqjawreiguczphaayksf/MusicScanner_Prefix.pch.gch
+t1261100528
+s7700664
+
+NMusicScanner-Info.plist
+c000000004B289722000000000000038D
+t1260951330
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies282793326#282793326#0(0"0(0#1#0"32088628383449192#0"0#
+
+CCodeSign /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app
+s282793329.092526
+e282793329.459442
+r1
+xCodeSign
+x/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app
+lSLF07#2@48"CodeSign build/Release-iphoneos/MusicScanner.app282793329#282793329#0(0"0(0#0#78"/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app4300885448#516"    cd /Users/cybercom/Documents/MusicScanner    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer" --resource-rules=/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/ResourceRules.plist /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app0#
+
+CCompileC build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicMetaData.o /Users/cybercom/Documents/MusicScanner/Classes/MusicMetaData.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicMetaDataParser.o /Users/cybercom/Documents/MusicScanner/Classes/MusicMetaDataParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282793328.572036
+e282793328.658246
+r1
+xCompileC
+xbuild/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicMetaDataParser.o
+x/Users/cybercom/Documents/MusicScanner/Classes/MusicMetaDataParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/cybercom/Documents/MusicScanner/Classes/MusicMetaDataParser.m282793328#282793328#0(0"0(0#0#68"/Users/cybercom/Documents/MusicScanner/Classes/MusicMetaDataParser.m4300885448#1901"    cd /Users/cybercom/Documents/MusicScanner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-generated-files.hmap -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-own-target-headers.hmap -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-all-target-headers.hmap -iquote /Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-project-headers.hmap -F/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos -I/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/include -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/DerivedSources/armv6 -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicScanner_Prefix-hildzudvaqjawreiguczphaayksf/MusicScanner_Prefix.pch -c /Users/cybercom/Documents/MusicScanner/Classes/MusicMetaDataParser.m -o /Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicMetaDataParser.o0#
+
+CCompileC build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicScanner.o /Users/cybercom/Documents/MusicScanner/Classes/MusicScanner.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282793328.480345
+e282793328.571941
+r1
+xCompileC
+xbuild/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicScanner.o
+x/Users/cybercom/Documents/MusicScanner/Classes/MusicScanner.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/cybercom/Documents/MusicScanner/Classes/MusicScanner.m282793328#282793328#0(0"0(0#0#61"/Users/cybercom/Documents/MusicScanner/Classes/MusicScanner.m4300885448#1887"    cd /Users/cybercom/Documents/MusicScanner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-generated-files.hmap -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-own-target-headers.hmap -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-all-target-headers.hmap -iquote /Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-project-headers.hmap -F/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos -I/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/include -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/DerivedSources/armv6 -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicScanner_Prefix-hildzudvaqjawreiguczphaayksf/MusicScanner_Prefix.pch -c /Users/cybercom/Documents/MusicScanner/Classes/MusicScanner.m -o /Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicScanner.o0#
+
+CCompileC build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicScannerAppDelegate.o /Users/cybercom/Documents/MusicScanner/Classes/MusicScannerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282793328.381505
+e282793328.503943
+r1
+xCompileC
+xbuild/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicScannerAppDelegate.o
+x/Users/cybercom/Documents/MusicScanner/Classes/MusicScannerAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/cybercom/Documents/MusicScanner/Classes/MusicScannerAppDelegate.m282793328#282793328#0(0"0(0#0#72"/Users/cybercom/Documents/MusicScanner/Classes/MusicScannerAppDelegate.m4300885448#1909"    cd /Users/cybercom/Documents/MusicScanner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-generated-files.hmap -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-own-target-headers.hmap -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-all-target-headers.hmap -iquote /Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-project-headers.hmap -F/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos -I/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/include -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/DerivedSources/armv6 -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicScanner_Prefix-hildzudvaqjawreiguczphaayksf/MusicScanner_Prefix.pch -c /Users/cybercom/Documents/MusicScanner/Classes/MusicScannerAppDelegate.m -o /Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicScannerAppDelegate.o0#
+
+CCompileC build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicScannerViewController.o /Users/cybercom/Documents/MusicScanner/Classes/MusicScannerViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282793328.504037
+e282793328.652891
+r1
+xCompileC
+xbuild/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicScannerViewController.o
+x/Users/cybercom/Documents/MusicScanner/Classes/MusicScannerViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/cybercom/Documents/MusicScanner/Classes/MusicScannerViewController.m282793328#282793328#0(0"0(0#0#75"/Users/cybercom/Documents/MusicScanner/Classes/MusicScannerViewController.m4300885448#1915"    cd /Users/cybercom/Documents/MusicScanner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-generated-files.hmap -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-own-target-headers.hmap -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-all-target-headers.hmap -iquote /Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-project-headers.hmap -F/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos -I/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/include -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/DerivedSources/armv6 -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicScanner_Prefix-hildzudvaqjawreiguczphaayksf/MusicScanner_Prefix.pch -c /Users/cybercom/Documents/MusicScanner/Classes/MusicScannerViewController.m -o /Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicScannerViewController.o0#
+
+CCompileC build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/main.o /Users/cybercom/Documents/MusicScanner/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282793328.380418
+e282793328.480195
+r1
+xCompileC
+xbuild/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/main.o
+x/Users/cybercom/Documents/MusicScanner/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/cybercom/Documents/MusicScanner/main.m282793328#282793328#0(0"0(0#0#45"/Users/cybercom/Documents/MusicScanner/main.m4300885448#1863"    cd /Users/cybercom/Documents/MusicScanner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-generated-files.hmap -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-own-target-headers.hmap -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-all-target-headers.hmap -iquote /Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-project-headers.hmap -F/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos -I/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/include -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/DerivedSources/armv6 -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicScanner_Prefix-hildzudvaqjawreiguczphaayksf/MusicScanner_Prefix.pch -c /Users/cybercom/Documents/MusicScanner/main.m -o /Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/cybercom/Documents/MusicScanner/MainWindow.xib
+s282793327.022627
+e282793327.268779
+r1
+xCompileXIB
+x/Users/cybercom/Documents/MusicScanner/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib282793327#282793327#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#53"/Users/cybercom/Documents/MusicScanner/MainWindow.xib4300885448#475"    cd /Users/cybercom/Documents/MusicScanner    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/MainWindow.nib /Users/cybercom/Documents/MusicScanner/MainWindow.xib0#
+
+CCpResource build/Release-iphoneos/MusicScanner.app/Hot.mp3 Hot.mp3
+s282793327.023113
+e282793327.588128
+r1
+xCpResource
+xbuild/Release-iphoneos/MusicScanner.app/Hot.mp3
+xHot.mp3
+lSLF07#2@12"Copy Hot.mp3282793327#282793327#0(0"0(0#0#46"/Users/cybercom/Documents/MusicScanner/Hot.mp34300885448#465"    cd /Users/cybercom/Documents/MusicScanner    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/cybercom/Documents/MusicScanner/Hot.mp3 /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app0#
+
+CCpResource build/Release-iphoneos/MusicScanner.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+s282793326.970049
+e282793327.022570
+r1
+xCpResource
+xbuild/Release-iphoneos/MusicScanner.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist282793326#282793327#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist4913266056747185152#510"    cd /Users/cybercom/Documents/MusicScanner    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app0#
+
+CCpResource build/Release-iphoneos/MusicScanner.app/audiofile.mp3 audiofile.mp3
+s282793327.023581
+e282793327.056570
+r1
+xCpResource
+xbuild/Release-iphoneos/MusicScanner.app/audiofile.mp3
+xaudiofile.mp3
+lSLF07#2@18"Copy audiofile.mp3282793327#282793327#0(0"0(0#0#52"/Users/cybercom/Documents/MusicScanner/audiofile.mp34300885448#471"    cd /Users/cybercom/Documents/MusicScanner    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/cybercom/Documents/MusicScanner/audiofile.mp3 /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app0#
+
+CCpResource build/Release-iphoneos/MusicScanner.app/daoxiang.mp3 daoxiang.mp3
+s282793327.025033
+e282793327.520044
+r1
+xCpResource
+xbuild/Release-iphoneos/MusicScanner.app/daoxiang.mp3
+xdaoxiang.mp3
+lSLF07#2@17"Copy daoxiang.mp3282793327#282793327#0(0"0(0#0#51"/Users/cybercom/Documents/MusicScanner/daoxiang.mp34300885448#470"    cd /Users/cybercom/Documents/MusicScanner    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/cybercom/Documents/MusicScanner/daoxiang.mp3 /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app0#
+
+CGenerateDSYMFile /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app.dSYM /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/MusicScanner
+s282793329.022652
+e282793329.064044
+r1
+xGenerateDSYMFile
+x/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app.dSYM
+x/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/MusicScanner
+lSLF07#2@114"GenerateDSYMFile build/Release-iphoneos/MusicScanner.app.dSYM build/Release-iphoneos/MusicScanner.app/MusicScanner282793329#282793329#0(0"0(0#0#91"/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/MusicScanner4300885448#381"    cd /Users/cybercom/Documents/MusicScanner    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/MusicScanner -o /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app.dSYM0#
+
+CLd /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/MusicScanner normal armv6
+s282793328.658320
+e282793329.022565
+r1
+xLd
+x/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/MusicScanner
+xnormal
+xarmv6
+lSLF07#2@96"Link /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/MusicScanner282793328#282793329#0(0"0(0#0#0"12666807751213152#952"    cd /Users/cybercom/Documents/MusicScanner    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos -F/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos -filelist /Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/Objects-normal/armv6/MusicScanner.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/MusicScanner0#
+
+CProcessInfoPlistFile /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/Info.plist MusicScanner-Info.plist
+s282793326.996666
+e282793327.006865
+r1
+xProcessInfoPlistFile
+x/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/Info.plist
+xMusicScanner-Info.plist
+lSLF07#2@31"Process MusicScanner-Info.plist282793326#282793327#0(0"0(0#0#62"/Users/cybercom/Documents/MusicScanner/MusicScanner-Info.plist4300885448#588"    cd /Users/cybercom/Documents/MusicScanner    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MusicScanner-Info.plist -genpkginfo /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/ResourceRules.plist -o /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app/Info.plist0#
+
+CProcessPCH /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicScanner_Prefix-hildzudvaqjawreiguczphaayksf/MusicScanner_Prefix.pch.gch MusicScanner_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s282793327.588287
+e282793328.380290
+r1
+xProcessPCH
+x/var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicScanner_Prefix-hildzudvaqjawreiguczphaayksf/MusicScanner_Prefix.pch.gch
+xMusicScanner_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile MusicScanner_Prefix.pch282793327#282793328#0(0"0(0#0#62"/Users/cybercom/Documents/MusicScanner/MusicScanner_Prefix.pch4300885448#1754"    cd /Users/cybercom/Documents/MusicScanner    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-generated-files.hmap -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-own-target-headers.hmap -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-all-target-headers.hmap -iquote /Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/MusicScanner-project-headers.hmap -F/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos -I/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/include -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/DerivedSources/armv6 -I/Users/cybercom/Documents/MusicScanner/build/MusicScanner.build/Release-iphoneos/MusicScanner.build/DerivedSources -c /Users/cybercom/Documents/MusicScanner/MusicScanner_Prefix.pch -o /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicScanner_Prefix-hildzudvaqjawreiguczphaayksf/MusicScanner_Prefix.pch.gch0#
+
+CTouch /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app
+s282793329.064114
+e282793329.092448
+r1
+xTouch
+x/Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app
+lSLF07#2@84"Touch /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app282793329#282793329#0(0"0(0#0#0"4300885448#271"    cd /Users/cybercom/Documents/MusicScanner    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cybercom/Documents/MusicScanner/build/Release-iphoneos/MusicScanner.app0#
+

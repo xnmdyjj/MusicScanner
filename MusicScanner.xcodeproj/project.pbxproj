@@ -13,11 +13,16 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		F1829F0B10DB287B00C0AEE8 /* MusicMetaDataSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = F1829F0A10DB287B00C0AEE8 /* MusicMetaDataSaver.m */; };
+		F1829F3A10DB28EF00C0AEE8 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F1829F3910DB28EF00C0AEE8 /* libsqlite3.0.dylib */; };
+		F182A1F910DB899800C0AEE8 /* andios.db in Resources */ = {isa = PBXBuildFile; fileRef = F182A1F810DB899800C0AEE8 /* andios.db */; };
 		F1A442D610D8CF5400E36D7D /* MusicScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A442D510D8CF5400E36D7D /* MusicScanner.m */; };
 		F1A442D810D8D11100E36D7D /* Hot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1A442D710D8D11100E36D7D /* Hot.mp3 */; };
 		F1A442DA10D8D12300E36D7D /* audiofile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1A442D910D8D12300E36D7D /* audiofile.mp3 */; };
 		F1A442EE10D8E82400E36D7D /* MusicScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A442ED10D8E82400E36D7D /* MusicScannerViewController.m */; };
 		F1AB4FF610D9CCC80010693A /* daoxiang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1AB4FF510D9CCC80010693A /* daoxiang.mp3 */; };
+		F1AB515B10DA08E70010693A /* MusicMetaDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AB515A10DA08E70010693A /* MusicMetaDataParser.m */; };
+		F1AB515D10DA09430010693A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AB515C10DA09430010693A /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +36,10 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MusicScanner_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicScanner_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MusicScanner-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MusicScanner-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F1829F0910DB287B00C0AEE8 /* MusicMetaDataSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicMetaDataSaver.h; sourceTree = "<group>"; };
+		F1829F0A10DB287B00C0AEE8 /* MusicMetaDataSaver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicMetaDataSaver.m; sourceTree = "<group>"; };
+		F1829F3910DB28EF00C0AEE8 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		F182A1F810DB899800C0AEE8 /* andios.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = andios.db; sourceTree = "<group>"; };
 		F1A442D410D8CF5400E36D7D /* MusicScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicScanner.h; sourceTree = "<group>"; };
 		F1A442D510D8CF5400E36D7D /* MusicScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicScanner.m; sourceTree = "<group>"; };
 		F1A442D710D8D11100E36D7D /* Hot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hot.mp3; sourceTree = "<group>"; };
@@ -38,6 +47,9 @@
 		F1A442EC10D8E82400E36D7D /* MusicScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicScannerViewController.h; sourceTree = "<group>"; };
 		F1A442ED10D8E82400E36D7D /* MusicScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicScannerViewController.m; sourceTree = "<group>"; };
 		F1AB4FF510D9CCC80010693A /* daoxiang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = daoxiang.mp3; sourceTree = "<group>"; };
+		F1AB515910DA08E70010693A /* MusicMetaDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicMetaDataParser.h; sourceTree = "<group>"; };
+		F1AB515A10DA08E70010693A /* MusicMetaDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicMetaDataParser.m; sourceTree = "<group>"; };
+		F1AB515C10DA09430010693A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +60,8 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				F1AB515D10DA09430010693A /* AudioToolbox.framework in Frameworks */,
+				F1829F3A10DB28EF00C0AEE8 /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,12 +71,17 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F182A1F810DB899800C0AEE8 /* andios.db */,
+				F1829F0910DB287B00C0AEE8 /* MusicMetaDataSaver.h */,
+				F1829F0A10DB287B00C0AEE8 /* MusicMetaDataSaver.m */,
 				1D3623240D0F684500981E51 /* MusicScannerAppDelegate.h */,
 				1D3623250D0F684500981E51 /* MusicScannerAppDelegate.m */,
 				F1A442D410D8CF5400E36D7D /* MusicScanner.h */,
 				F1A442D510D8CF5400E36D7D /* MusicScanner.m */,
 				F1A442EC10D8E82400E36D7D /* MusicScannerViewController.h */,
 				F1A442ED10D8E82400E36D7D /* MusicScannerViewController.m */,
+				F1AB515910DA08E70010693A /* MusicMetaDataParser.h */,
+				F1AB515A10DA08E70010693A /* MusicMetaDataParser.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -114,6 +133,8 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				F1AB515C10DA09430010693A /* AudioToolbox.framework */,
+				F1829F3910DB28EF00C0AEE8 /* libsqlite3.0.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,6 +193,7 @@
 				F1A442D810D8D11100E36D7D /* Hot.mp3 in Resources */,
 				F1A442DA10D8D12300E36D7D /* audiofile.mp3 in Resources */,
 				F1AB4FF610D9CCC80010693A /* daoxiang.mp3 in Resources */,
+				F182A1F910DB899800C0AEE8 /* andios.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +208,8 @@
 				1D3623260D0F684500981E51 /* MusicScannerAppDelegate.m in Sources */,
 				F1A442D610D8CF5400E36D7D /* MusicScanner.m in Sources */,
 				F1A442EE10D8E82400E36D7D /* MusicScannerViewController.m in Sources */,
+				F1AB515B10DA08E70010693A /* MusicMetaDataParser.m in Sources */,
+				F1829F0B10DB287B00C0AEE8 /* MusicMetaDataSaver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +226,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MusicScanner_Prefix.pch;
 				INFOPLIST_FILE = "MusicScanner-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = MusicScanner;
 			};
 			name = Debug;
@@ -214,6 +242,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MusicScanner_Prefix.pch;
 				INFOPLIST_FILE = "MusicScanner-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = MusicScanner;
 			};
 			name = Release;
