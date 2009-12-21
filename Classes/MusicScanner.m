@@ -11,6 +11,9 @@
 
 @implementation MusicScanner
 
+/*
+ copy bunfle files to application document directory
+ */
 
 +(void)copyMusicFilesToDocumentDirectoryFromBundle {
 	NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -47,6 +50,9 @@
 	
 }
 
+/*
+ Search audio files in the path, And return an array
+*/
 
 +(NSMutableArray *)searchMediaFile:(NSString *)directoryPath{
 	NSMutableArray *mediaFilesArray = [NSMutableArray array];

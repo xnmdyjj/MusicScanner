@@ -18,6 +18,7 @@
 -(void)scannerButtonPressed:(id)sender;
 -(void)parserButtonPressed:(id)sender;
 -(void)saveButtonPressed:(id)sender;
+-(void)readButtonPressed:(id)sender;
 
 @end
 
@@ -60,7 +61,7 @@
 	self.parserButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	parserButton.frame = CGRectMake(20.0, 70.0, 150.0, 40.0);
 	parserButton.backgroundColor = [UIColor clearColor];
-	[parserButton setTitle:@"parser local files" forState:UIControlStateNormal];
+	[parserButton setTitle:@"parse local files" forState:UIControlStateNormal];
 	[parserButton addTarget:self action:@selector(parserButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 	[self.view addSubview:parserButton];
 	
@@ -69,9 +70,19 @@
 	self.saveButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	saveButton.frame = CGRectMake(20.0, 120.0, 150.0, 40.0);
 	saveButton.backgroundColor = [UIColor clearColor];
-	[saveButton setTitle:@"save nusic data" forState:UIControlStateNormal];
+	[saveButton setTitle:@"save music data" forState:UIControlStateNormal];
 	[saveButton addTarget:self action:@selector(saveButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 	[self.view addSubview:saveButton];
+	
+	
+	//create readButton
+	
+	UIButton *readButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+	readButton.frame = CGRectMake(20.0, 170.0, 150.0, 40.0);
+	readButton.backgroundColor = [UIColor clearColor];
+	[readButton setTitle:@"read music data" forState:UIControlStateNormal];
+	[readButton addTarget:self action:@selector(readButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+	[self.view addSubview:readButton];
 	
 	
 	//copy resouces music files to application document directory.
@@ -97,7 +108,6 @@
 -(void)parserButtonPressed:(id)sender {
 	NSDictionary *metaData;
 	MusicMetaDataParser *musicParser = [[MusicMetaDataParser alloc] init];
-	//NSFileManager *fileManager = [NSFileManager defaultManager];
 	self.mediaMetaDataArray = [NSMutableArray array];
 	for (NSString *path in mediaFilesArray) {
 		NSURL *fileURL = [[NSURL alloc] initFileURLWithPath:path];
@@ -123,22 +133,35 @@
 
 
 -(void)saveButtonPressed:(id)sender {
-	NSString *databasePath = [[NSBundle mainBundle] pathForResource:@"andios" ofType:@"db"];
-	NSLog(@"databasePath = %@", databasePath);
-	MusicMetaDataSaver *dataSaver = [[MusicMetaDataSaver alloc] initWithDatabasePath:databasePath];
-	//if ([dataSaver openDatabase]) {
-		NSLog(@"open database success.");
-		/*
-		for (NSDictionary *metaData in mediaMetaDataArray) {
-			[dataSaver insertAlbumData:metaData];
-			break;
-		}*/
-		[dataSaver insertAlbumData:nil];
-		//[dataSaver readAlbumData];
-		//[dataSaver closeDatabase];
-	//}
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *documentsDirectory = [paths objectAtIndex:0];
+	NSString *path = [documentsDirectory stringByAppendingPathComponent:@"audios.db"];
+	
+	MusicMetaDataSaver *dataSaver = [[MusicMetaDataSaver alloc] initWithDatabasePath:path];
+	if ([dataSaver openDatabase]) {
+		 for (NSDictionary *metaData in mediaMetaDataArray) {
+			 [dataSaver insertAlbumData:metaData];
+			 [dataSaver insertArtistData:metaData];
+			 [dataSaver insertAudioGenreData:metaData];
+		 }
+		[dataSaver closeDatabase];
+	}
 	[dataSaver release];
 }
+
+-(void)readButtonPressed:(id)sender {
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *documentsDirectory = [paths objectAtIndex:0];
+	NSString *path = [documentsDirectory stringByAppendingPathComponent:@"audios.db"];	
+	MusicMetaDataSaver *dataSaver = [[MusicMetaDataSaver alloc] initWithDatabasePath:path];
+	if ([dataSaver openDatabase]) {
+		[dataSaver readAlbumData];
+		[dataSaver closeDatabase];
+	}
+	[dataSaver release];
+}
+
+
 
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.

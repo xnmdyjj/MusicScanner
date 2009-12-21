@@ -7,24 +7,26 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <sqlite3.h>
 
 @interface MusicMetaDataSaver : NSObject {
-	
+	sqlite3 *database;
 	NSString *databasePath;
 }
 
+@property sqlite3 *database;
 @property (nonatomic, retain) NSString *databasePath;
 
 - (id)initWithDatabasePath:(NSString *)theDatabasePath;
-//-(BOOL)openDatabase;
+-(BOOL)openDatabase;
 -(void)readAlbumData;
 -(void)insertAlbumData:(NSDictionary *)audioMetaData;
-/*
+
+
 -(void)insertArtistData:(NSDictionary *)audioMetaData;
 -(void)insertAudioGenreData:(NSDictionary *)audioMetaData;
 -(void)insertAudioMetaData:(NSDictionary *)audioMetaData;
 
--(void)closeDatabase;*/
+-(void)closeDatabase;
 
 @end

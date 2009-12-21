@@ -1,0 +1,34 @@
+1. how to use this application 
+  1.1 Tap the "scan local files" button, The application will scan the application document path, And return an Array of music file path.
+
+  1.2 Tap the "parse local files" button. The application will parse the music files, And get the id3 information of music files. Finally, it will return an array of dictionary object which presents some information about audio.
+
+ 1.3 Tap the "save music data" button. The application will save some data into database.
+
+ 1.4 Tap the "read music data". It is just for test.
+
+2. Introduction about source files 
+  2.1 MusicScanner.h 
+      MusicScanner.m
+      This class implements tow functions. More detail please see the 	 comments.
+
+  2.2 MusicMetaDataParser.h
+      MusicMetaDataParser.m
+ This class implements only one function. It used AudioToolbox framework. especially AudioFile class. reference : http://iphonedevbook.com/forum/viewtopic.php?f=25&t=864
+
+  2.3 MusicMetaDataSaver.h
+      MusicMetaDataSaver.m
+This class implements some database operation. It could open database , close database and insert data into relative tables.
+
+  2.4 MusicScannerViewController.h
+      MusicScannerViewController.m
+This class is for invoking some functions of above class.
+
+3. Note
+
+3.1 Some field of the table should be changed. For example,in albums table the property of album field is 'not null'.  And the 'album_key' is unique. It's also exist in other tables. Maybe you have found this when you insert data manually. Actually some times  the album is null. So I give an advice that it should not add 'not null' property for album field.
+
+3.2 The application can not insert data into database when it's in application bundle. So we should copy the database to application directory first when we want to insert data into database.
+
+
+

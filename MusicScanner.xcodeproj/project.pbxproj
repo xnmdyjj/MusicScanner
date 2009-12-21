@@ -15,7 +15,6 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		F1829F0B10DB287B00C0AEE8 /* MusicMetaDataSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = F1829F0A10DB287B00C0AEE8 /* MusicMetaDataSaver.m */; };
 		F1829F3A10DB28EF00C0AEE8 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F1829F3910DB28EF00C0AEE8 /* libsqlite3.0.dylib */; };
-		F182A1F910DB899800C0AEE8 /* andios.db in Resources */ = {isa = PBXBuildFile; fileRef = F182A1F810DB899800C0AEE8 /* andios.db */; };
 		F1A442D610D8CF5400E36D7D /* MusicScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A442D510D8CF5400E36D7D /* MusicScanner.m */; };
 		F1A442D810D8D11100E36D7D /* Hot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1A442D710D8D11100E36D7D /* Hot.mp3 */; };
 		F1A442DA10D8D12300E36D7D /* audiofile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1A442D910D8D12300E36D7D /* audiofile.mp3 */; };
@@ -23,6 +22,7 @@
 		F1AB4FF610D9CCC80010693A /* daoxiang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1AB4FF510D9CCC80010693A /* daoxiang.mp3 */; };
 		F1AB515B10DA08E70010693A /* MusicMetaDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AB515A10DA08E70010693A /* MusicMetaDataParser.m */; };
 		F1AB515D10DA09430010693A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AB515C10DA09430010693A /* AudioToolbox.framework */; };
+		F1F0A61A10DF465C00FCB42E /* audios.db in Resources */ = {isa = PBXBuildFile; fileRef = F1F0A61910DF465C00FCB42E /* audios.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,6 @@
 		F1829F0910DB287B00C0AEE8 /* MusicMetaDataSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicMetaDataSaver.h; sourceTree = "<group>"; };
 		F1829F0A10DB287B00C0AEE8 /* MusicMetaDataSaver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicMetaDataSaver.m; sourceTree = "<group>"; };
 		F1829F3910DB28EF00C0AEE8 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		F182A1F810DB899800C0AEE8 /* andios.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = andios.db; sourceTree = "<group>"; };
 		F1A442D410D8CF5400E36D7D /* MusicScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicScanner.h; sourceTree = "<group>"; };
 		F1A442D510D8CF5400E36D7D /* MusicScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicScanner.m; sourceTree = "<group>"; };
 		F1A442D710D8D11100E36D7D /* Hot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hot.mp3; sourceTree = "<group>"; };
@@ -50,6 +49,7 @@
 		F1AB515910DA08E70010693A /* MusicMetaDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicMetaDataParser.h; sourceTree = "<group>"; };
 		F1AB515A10DA08E70010693A /* MusicMetaDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicMetaDataParser.m; sourceTree = "<group>"; };
 		F1AB515C10DA09430010693A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F1F0A61910DF465C00FCB42E /* audios.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = audios.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,6 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F182A1F810DB899800C0AEE8 /* andios.db */,
 				F1829F0910DB287B00C0AEE8 /* MusicMetaDataSaver.h */,
 				F1829F0A10DB287B00C0AEE8 /* MusicMetaDataSaver.m */,
 				1D3623240D0F684500981E51 /* MusicScannerAppDelegate.h */,
@@ -118,6 +117,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F1F0A61910DF465C00FCB42E /* audios.db */,
 				F1AB4FE410D9CC8B0010693A /* music */,
 				F1A442D910D8D12300E36D7D /* audiofile.mp3 */,
 				F1A442D710D8D11100E36D7D /* Hot.mp3 */,
@@ -193,7 +193,7 @@
 				F1A442D810D8D11100E36D7D /* Hot.mp3 in Resources */,
 				F1A442DA10D8D12300E36D7D /* audiofile.mp3 in Resources */,
 				F1AB4FF610D9CCC80010693A /* daoxiang.mp3 in Resources */,
-				F182A1F910DB899800C0AEE8 /* andios.db in Resources */,
+				F1F0A61A10DF465C00FCB42E /* audios.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
